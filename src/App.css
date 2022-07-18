@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: center;  
+  background-color: #abb8c3;
+}
+
+.board {
+  padding: 5%;
 }
 
 .App-logo {

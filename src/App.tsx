@@ -16,12 +16,14 @@ const stackStyles: Partial<IStackStyles> = {
 
 export const App: React.FunctionComponent = () => {
   return (
-    <Stack horizontalAlign="center" verticalAlign="center" verticalFill styles={stackStyles} tokens={stackTokens}>
-      <img className="App-logo" src={logo} alt="logo" />
-      <Text variant="xxLarge" styles={boldStyle}>
-        Welcome to your Fluent UI app
-      </Text>
-      <Text variant="large">For a guide on how to customize this project, check out the Fluent UI documentation.</Text>
+    
+    <Stack className='board'>
+      <Stack horizontalAlign='start'>
+        <Text variant="xxLargePlus" styles={boldStyle}>TV Shows</Text>
+        <Text variant="large">These days, the small screen has some very big things to offer. From sitcoms to dramas to travel and talk shows, these are all the best programs on TV.</Text>
+      </Stack>
+      <Stack horizontalAlign="center" verticalAlign="center" verticalFill styles={stackStyles} tokens={stackTokens}>
+      
       <Text variant="large" styles={boldStyle}>
         Essential links
       </Text>
@@ -38,6 +40,7 @@ export const App: React.FunctionComponent = () => {
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons">Icons</Link>
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web">Styles</Link>
         <Link href="https://aka.ms/themedesigner">Theme designer</Link>
+      </Stack>
       </Stack>
     </Stack>
   );
