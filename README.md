@@ -6,6 +6,8 @@ http://api.tvmaze.com/search/shows?q=golden girls
 
 https://developer.microsoft.com/en-us/fluentui#/controls/web
 
+https://www.netflix.com/by-ru/browse/genre/83
+
 This is a [Create React App](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
 
 ## Available Scripts
